@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(20, 20, 20);
+    color: burlywood;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+.container{
+    position: relative;
+    top: 50px;
+    max-width: 420px;
+    height:auto;
+    margin: auto;
+    
+    text-align: center;
+}  
+
+
+.heading{
+    font-size: 55px;
+    font-family: 'Baloo Da 2', cursive;
+    
+    padding-bottom: 10px;
+}
+
+.inspiration{
+    color: rgb(42, 90, 153);
+}
