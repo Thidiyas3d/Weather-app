@@ -10,7 +10,7 @@ body{
 .container{
     position: relative;
     top: 50px;
-    max-width: 420px;
+    max-width: 480px;
     height:auto;
     margin: auto;
     
@@ -19,7 +19,7 @@ body{
 
 
 .heading{
-    font-size: 55px;
+    font-size: 65px;
     font-family: 'Baloo Da 2', cursive;
     
     padding-bottom: 10px;
@@ -27,4 +27,19 @@ body{
 
 .inspiration{
     color: rgb(42, 90, 153);
+}
+
+.cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#temp{
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#main{
+    font-size: 25px;
+    padding-left: 20px;
 }

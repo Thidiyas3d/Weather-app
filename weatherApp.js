@@ -33,9 +33,10 @@ function apiRequest(lat, lon){
     if(this.readyState==4  && this.status==200){
        console.log(Http.responseText);
        var data = JSON.parse(Http.responseText);
-       document.getElementById("city-country").innerHTML =  "city, " +data.sys.country ;
-       document.getElementById("temp").innerHTML = data.main.temp;
-       document.getElementById("temp").innerHTML = data.main.temp;
+       document.getElementById("city-country").innerHTML = data.name+ ", " +data.sys.country ;
+       document.getElementById("temp").innerHTML = data.main.temp +" &deg C";
+       document.getElementById("main").innerHTML = data.weather[0].main;
+       document.getElementById("icon").src = data.weather[0].icon;
         }
    
       }
