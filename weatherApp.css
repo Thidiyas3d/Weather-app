@@ -1,7 +1,11 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+    
     background-color:rgb(20, 20, 20);
     color: burlywood;
     font-family: 'Roboto', sans-serif;
@@ -10,7 +14,7 @@ body{
 .container{
     position: relative;
     top: 50px;
-    max-width: 480px;
+    max-width: 400px;
     height:auto;
     margin: auto;
     
@@ -27,19 +31,28 @@ body{
 
 .inspiration{
     color: rgb(42, 90, 153);
+    
 }
 
-.cont{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
 #temp{
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+    
 }
-#main{
+#desc{
+    
     font-size: 25px;
-    padding-left: 20px;
+    
+    text-align: left;
+    letter-spacing:1px;
+    padding-left: 40px;
+}
+
+#city-country{
+    
+    text-align: left;
+    letter-spacing:1px;
+    padding-left: 40px;
 }
