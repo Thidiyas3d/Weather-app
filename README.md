@@ -4,7 +4,7 @@ latitude and longitude to an API(made available by freecodecamp.org). The API re
 your weather info.
 Build using just HTML5, CSS and Javascript.
 
-
+![image](https://github.com/Thidiyas3d/Weather-app/blob/master/screenshot.JPG)
 
 
 Inspired by freecodecamp.org.
